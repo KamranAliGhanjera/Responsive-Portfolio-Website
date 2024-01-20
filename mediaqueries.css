@@ -1,0 +1,274 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .toggle-btn {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 3rem;
+  }
+  #about,
+  .left-box {
+    margin-left: 3rem;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  
+  .about-containers {
+    margin-top: 0;
+  }
+  #about,
+  .left-box {
+    margin-left: 1.5rem;
+    width: 90%;
+  }
+
+  #projects,
+  .experience-details-container {
+    margin-left: 3rem;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 3rem;
+  }
+  #projects {
+    .about-containers {
+      display: block; 
+    }
+
+    .experience-details-container {
+      margin-right: 3rem;
+    }
+  
+    .color-container {
+      margin-bottom: 2rem; 
+      margin-left: 2rem;
+    } 
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+
+  #experience,
+  .experience-details-container {
+    margin-right: 2rem;
+  }
+}
+
+/* About page media  Queries */
+
+@media screen and (max-width: 1200px) {
+  .about-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left-box {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .left-box {
+    width: 80%;
+   margin-left: 0;
+  }
+
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arrow {
+    right: 0;
+    bottom: 0;
+  }
+}
+
+/* Inside mediaqueries.css, adjust styles for mobile view also include dark-mode queries for mobile view */
+@media screen and (max-width: 600px) {
+
+  body.dark-mode p {
+    color: white; 
+  }
+
+  #hamburger-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+  }
+
+  body.dark-mode .hamburger-icon span {
+    background-color: white; 
+  }
+
+  body.dark-mode .menu-links {
+    background-color: #18122B; 
+  }
+
+  body.dark-mode .menu-links a {
+    color: white; 
+  }
+
+  .hamburger-menu {
+    padding: 1rem; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    max-height: 0; 
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; 
+  }
+
+  .menu-links.open {
+    max-height: 300px; 
+  }
+
+  .menu-links a {
+    text-align: center; 
+  }
+
+  .toggle-btn {
+    margin-top: auto;
+    margin-left: -5rem; 
+   
+  }
+
+  .toggle-label {
+    width: 3rem; 
+    height: 2rem; 
+  }
+
+  .toggle-ball {
+    width: 1.5rem; 
+    height: 1.5rem; 
+    margin-left: 2px; 
+  }
+
+  body.dark-mode .toggle-ball {
+    margin-left: 20px; 
+  }
+
+  .section__pic-container {
+    margin-top: 5.5rem; 
+    margin-bottom: 1rem;
+  }
+
+  .logo-text {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-right: 8rem; 
+  }
+
+  .logo img {
+    margin-right: 1rem; 
+  }
+
+  
+}
+
+
+
+
+
+
+
